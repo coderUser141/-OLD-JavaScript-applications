@@ -1,0 +1,31 @@
+***************************************************************
+*******************Used for addons_js.js*******************
+***************************************************************
+
+FUNCTIONS:
+ ( addons.functions to invoke )
+
+Combine function : Basically 'a' is the array, 'b' is the text to add to 
+the elements, and 'c=true' means to put the text at the beginning, while 
+'c=false' is to put the text at the end.
+ ( combine to invoke )
+
+Atcombine function : Same as 'combine(a,b,c)', however instead submerges 
+elements into the same array as put in the parameters.
+ ( atcombine to invoke )
+
+Invert function : Very simple function, I don't need to describe it.
+ ( invert to invoke )
+
+LocateHTML function :This function locates HTML. In order to use it, you 
+must put in the function call:'a', which is the element tag name or 
+identitification based on 'b' where if is it 'true' it will be 
+identitification or where if it is 'false' it will be the HTML tag name. 
+ ( locateHTML to invoke )
+
+Chop function : Splits strings and returns as an array.(chop to invoke)
+
+nChop function : Same as chop(), however you decide how much characters 
+to split.  ( nchop to invoke )
+
+seachArray: Searches an array for an element. ( searchArr to invoke )
